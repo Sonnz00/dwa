@@ -1,0 +1,299 @@
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+} */
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+h1{
+    font-family: Montserrat;
+}
+
+p{
+    font-family: Montserrat;
+}
+
+a{
+    font-family: Montserrat;
+    margin-left: 40px;
+    
+}
+nav {
+    display:flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding:30px;
+}
+
+.navbar a{
+    text-decoration: none;
+}
+
+.menu {
+    display:flex;
+    list-style:none;
+}
+
+.menu li{
+    margin-left: 10px;
+}
+
+.menu li a{
+    text-decoration:none;
+    width:40px;
+    height:40px;
+}
+
+.bigcover{
+    background-color: #ffffff;
+    display:flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    /* width: 1; */
+    height: 400px;
+}
+
+.box1{
+    display: flex;
+    justify-content: flex-end;
+    /* background-color: #a74a4a; */
+    /* text-align: center; */
+    margin-top: 10px;
+    
+}
+
+
+.fortext{
+    flex:1;
+    text-align: center;
+    font-size: 18px;
+    transition-property: transform;
+    transition-duration: 2s;
+    z-index: 2;
+}
+
+.fortext:hover{
+
+    transform: scale(1.2);
+    transition-duration: 2s;
+    /* transition: ease-in-out; */
+}
+
+.box2{
+    background-color: #b1b1b1;
+    /* text-align: center; */
+    width: 50%;
+    /* transition: width 2s ease; */
+   
+}
+
+.box2 img{
+    height: 400px;
+    width:290px;
+    
+}
+
+.box1{
+    flex:1;
+    display: flex;
+    justify-content: space-around;
+}
+
+.topL{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    /* background-color: aqua; */
+}
+
+.box1 h1{
+    font-family: Montserrat;
+    text-align: center;
+    margin-top: 130px;
+    /* position: absolute; */
+    /* margin-left: 5%;
+    margin-top: 100px; */
+    color: rgb(0, 0, 0);
+    /* transition-duration: 2s; */
+   
+    
+}
+
+.box1 p{
+    font-family: Montserrat;
+    padding-top: 10px;
+    text-align: center;
+    /* margin-top: 70px; */
+    /* position: absolute; */
+    /* margin-left: 8%;
+    margin-top: 160px; */
+    color: rgb(0, 0, 0);
+    /* transition: ease-in; */
+}
+
+.aboutme{
+    /* background-color: rgb(131, 3, 3); */
+    display: flex;
+    
+    /* justify-content: center; */
+    height: 300px;
+    
+   
+}
+
+.invi{
+    flex:1;
+    /* background-color: rgb(0, 0, 0); */
+}
+
+.story{
+    background-color: rgb(98, 139, 84);
+    flex:1;
+
+    color: white;
+
+}
+
+
+.b img{
+    height: 400px;
+    width: 290px;
+}
+
+.skill{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 100%; */
+    height:400px;
+    /* margin-top: 50px; */
+    background-color: rgb(255, 255, 255);
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.boxskill1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height:250px;
+    /* background-color: antiquewhite; */
+    flex:1;
+    margin-left: 100px;
+    margin-right: 100px;
+    overflow-x: auto;
+    
+
+}
+.boxskill1 h1,p{
+    
+    margin-top: 20px;
+}
+
+
+.boxskill2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height:250px;
+    /* background-color: antiquewhite; */
+    flex:1;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.boxskill2 h1,p{
+    
+    margin-top: 20px;
+}
+
+
+
+.boxskill3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height:250px;
+    background-color: rgb(255, 255, 255);
+    flex:1;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+    
+   
+}
+
+/* .boxskill3 :hover::before{
+    background-color: #ffffff;
+} */
+
+.skill ::before{
+     
+    background-color: antiquewhite;
+    
+    /* transition: 1s; */
+
+}
+
+
+.skill :hover::before{
+     
+    background-color: rgb(72, 63, 53);
+    
+    transition: all 1s ease;
+
+}
+
+.boxskill3 h1,p{
+    margin-top: 20px;
+}
+
+
+.education{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    height: 400px;
+    /* background-color: black; */
+    justify-content: space-evenly;
+}
+
+.school
+{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.line{
+    
+    width: 100%;
+    height: 6px;
+    background-color: rgb(131, 127, 127);
+}
+
+.footer{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+}
+
